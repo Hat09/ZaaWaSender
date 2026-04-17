@@ -1,0 +1,23 @@
+{
+  "name": "wa-sender",
+  "version": "1.0.0",
+  "description": "WhatsApp Multi-Session Cross-Messaging Bot via Telegram",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "telegraf": "^4.16.3",
+    "lowdb": "^7.0.1",
+    "pino": "^9.3.2",
+    "pino-pretty": "^11.2.1",
+    "qrcode": "^1.5.4",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
